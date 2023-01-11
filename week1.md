@@ -9,4 +9,5 @@ Here are several steps during the process:<br />
 ![Untitled](https://user-images.githubusercontent.com/122485099/211921702-75a4eb3b-e9d2-40fd-a1dd-6d71334e0e95.jpg)
 4. The last step is to put in some commands and see if it works, and the screenshot is the picture below<br />
 In this case, you can try different things: ls, cd, ls -lat and so on...<br />
-![2](https://user-images.githubusercontent.com/122485099/211921771-bab5011c-33a8-40ac-b7dd-7e159ce86af5.jpg)
+![2](https://user-images.githubusercontent.com/122485099/211921771-bab5011c-33a8-40ac-b7dd-7e159ce86af5.jpg)<br />
+Then, everything will be working fine! If you follow the instructions step by step and I think that wouldn't take too much time and effort!
