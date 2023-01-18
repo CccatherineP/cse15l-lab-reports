@@ -1,5 +1,5 @@
 1. the first thing we need to do is to download Github desktop to our own computer, and also make sure we have JAVA JDK installed too<br />
-2. from the Github desktop, we can go on the repository page, there is a <Code> button; you can click on that and choose “Open with Github Desktop”, 
+2. from the Github desktop, we can go on the repository page, there is a "code" button; you can click on that and choose "Open With Github Desktop", 
 then we can open the file we want to open.<br />
 3. The next step is to build and run the server on our own computers:<br />
 1) enter these two commands in the terminal:<br /> ⤇ javac Server.java NumberServer.java<br />⤇ java NumberServer 4000<br />Then we would be able to see 
