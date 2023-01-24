@@ -23,8 +23,8 @@ Here are several steps during the process:<br />
 In this case, you can try different things: `ls`, `cd`, `pwd`, `mkdir`, `cp`, `ls -lat` and so on...<br />
 * You can try entering these commands on both your own computer and the remote computer, you could find out the outputs might be different
 * The most interesting output I received is when I type `ls -lat` into my terminal, which I got a long result which is showed in my screenshot
-* Here are also some hints to log out of the remote server in your terminal
-1) Ctrl-D
-2) Run the command `exist`
+* Here are also some hints to log out of the remote server in your terminal:<br />
+1)Ctrl-D<br />
+2)Run the command `exist`<br />
 ![2](https://user-images.githubusercontent.com/122485099/211921771-bab5011c-33a8-40ac-b7dd-7e159ce86af5.jpg)<br />
 Then, everything will be working fine! If you follow the instructions step by step and I think that wouldn't take too much time and effort!
