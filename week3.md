@@ -23,8 +23,9 @@ where you can replacee "<string>" with any string that you want: <br />
   * In this screenshot, the method `handleRequest` is being called
   * The argument `String str` has been passed down through the method. For the values, I have `new URI("http://localhost:4000/add-message?s=World")`
   and the string str `"Hello\nWorld"`
-  * The value of URI changed from `"http://localhost:4000/add-message?s=Hello"` into `"http://localhost:4000/add-message?s=World"`, string str changes from `"Hello` into `"Hello\nWorld"`
-  # Part 2
+  * The value of URI changed from `"http://localhost:4000/add-message?s=Hello"` into `"http://localhost:4000/add-message?s=World"`, string str changes from `"Hello` into `"Hello\nWorld"`<br />
+	
+# Part 2
   In lab3, we did some debugging and used JUnit to test the code we have. I want to choose the bug in method `reverseInPlace` <br />
   * First, when I wrote the JUnite test as: 
   ```
@@ -73,7 +74,7 @@ where you can replacee "<string>" with any string that you want: <br />
   start the swapping process, which is already correct from the beginning. Now lastly, we need to be able to swap each other, so, 
   create another swapping process and then you will store it to the `temp` variable so the `temp` variable will change its values. 
   
- # Part 3
+# Part 3
   I would say that I learned a lot from the week2's lab, I never create any web server with the code and able to do all these tricks with adding contents 
   at the url. During the lab, codes for creating url were provided, so all we did is to try if the tricks work. Later, we were asked to create our own
   web server, that is also very interesting for me, which made me to look more closely at the codes written for catching and returning things we need for our 
