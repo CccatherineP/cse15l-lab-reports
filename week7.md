@@ -27,8 +27,7 @@ In this case, the first line of command was 6 up in the search history, so I use
 * Second, I typed `git commit -m "Updated` to committed the updated Git code locally
 * Last, I typed `push origin main` to get everything up-to-date in my github 
 ## Here are some preparation for step 1 and 2
-1. 
-In order to speed up, we can generate ssh key for ieng6, here are the steps: <br />
+1. In order to speed up, we can generate ssh key for ieng6, here are the steps: <br />
 * In your local terminal, run `ssh-keygen`
 * Keep entering `<Enter>` until the program shows some text it calles the “randomart image”.
 ![step4](https://user-images.githubusercontent.com/122485099/221393312-93595371-6598-4987-b8f0-a3220eaad724.jpg)
@@ -40,8 +39,7 @@ In order to speed up, we can generate ssh key for ieng6, here are the steps: <br
 * From your local computer, run `scp <path to your public SSH key> cs15lwi23__@ieng6.ucsd.edu:~/.ssh/authorized_keys`
 Enter password when prompted (this will be the last time you have to type it!)<br />
 Here is a screen shot of logging into my remote account without password<br />
-2. 
-In order to speed up, we can generate SSH Keys for GitHub<br />
+2. In order to speed up, we can generate SSH Keys for GitHub<br />
 * Login to ieng6 as usual 
 * Run the command `ssh-keygen`, and again press Enter until the command completes and shows the “randomart image”
 Next, we want to add a the public key to your Github account. This is like the step of copying the public key to `authorized_keys` on `ieng6`, but instead we’re copying to Github.
