@@ -1,27 +1,27 @@
 # Lab Report 4
-## Step 1: Log into ieng6
+## Step 4: Log into ieng6
 * By using `ssh xpang@ieng6.ucsd.edu` in the command line, which helps us to log into our remote account
   Here, I use 1 `<up>` to get this command line, which is stored in the search history
 ![step4_login ssh](https://user-images.githubusercontent.com/122485099/221393673-1e4c1ef7-f940-4acc-81e3-890f46e630de.jpg)
-## Step 2: Clone your fork of the repository from your Github account
+## Step 5: Clone your fork of the repository from your Github account
 I clone my fork of the repository from my Github account:<br />
 by using `git clone git@github.com:CccatherineP/lab7.git/lab7.git`<br />
 In this step, I think it's easier for me to just type `git clone` first, and then copy and paste the ssh key from the website, the paste key for mac is `control c`
  ![image](https://user-images.githubusercontent.com/122485099/221402869-523b6c3a-c393-4a07-972e-5e7a37d88872.png)
-## Step 3: Run the tests, demonstrating that they fail
+## Step 6: Run the tests, demonstrating that they fail
 ![step6](https://user-images.githubusercontent.com/122485099/221397497-c4123ac1-6ddf-4028-906d-03a347659031.jpg)
 `Keys pressed: <up><up><up><up><up><enter>, <up><up><up><up><enter>`
 In this case, the first line of command was 5 up in the search history, so I used up arrow to access it, the second line of command was 4 up in the search history, so I used up arrow to access it<br />
-## Step 4: Edit the code file to fix the failing test
+## Step 7: Edit the code file to fix the failing test
 ![step7](https://user-images.githubusercontent.com/122485099/221400549-9d814243-1e8e-47ad-91a0-8f9531cd84e2.jpg)
 In this step, I fix the failing test by changing the index1 in the last part of the code to index2<br />
-## Step 5: Run the tests, demonstrating that they now succeed
+## Step 8: Run the tests, demonstrating that they now succeed
 ![step8](https://user-images.githubusercontent.com/122485099/221400478-f1172fa2-e1b9-41c2-8b32-fe0a841a1c13.jpg)
-I used the command `nano ListExamples.java` to edit the java file, here I typed `nano L` first, and then type `tab` which gives me java file that I needed, all I need to 
-do after that is to type `.java` at the end. <br />
+![nano](https://user-images.githubusercontent.com/122485099/223917785-633d15b0-eec7-46fc-b5ad-47e0ed4439fe.jpg)
+I used the command `nano ListExamples.java` to edit the java file, here I typed `nano L` first, and then type `tab` which gives me java file that I needed, all I need to do after that is to type `.java` at the end. In order to fix the file, I changed the last while loop, changing from `index1 += 1` tp `index2 += 1` after that, pressed `control + o` to save the changes and then `control + x` to exit. All I need to do after that is to type `.java` at the end. <br />
 To run the test again, `Keys pressed: <up><up><up><up><up><up><enter>, <up><up><up><up><up><enter>`
 In this case, the first line of command was 6 up in the search history, so I used up arrow to access it, the second line of command was 5 up in the search history, so I used up arrow to access it<br />
-## Step 5: Commit and push the resulting change to your Github account 
+## Step 9: Commit and push the resulting change to your Github account 
 ![Step9](https://user-images.githubusercontent.com/122485099/221402943-3815e050-259a-48fa-8c5e-31f11fb1e00e.jpg)
 * First, I typed `git add L` in the command line, then used `<tab>`, which I got the `ListExamples`, then I just add `.java` behind `ListExamples`
 * Second, I typed `git commit -m "Updated` to committed the updated Git code locally
