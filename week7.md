@@ -24,7 +24,7 @@ In this case, the first line of command was 6 up in the search history, so I use
 ## Step 9: Commit and push the resulting change to your Github account 
 ![Step9](https://user-images.githubusercontent.com/122485099/221402943-3815e050-259a-48fa-8c5e-31f11fb1e00e.jpg)
 * First, I typed `git add L` in the command line, then used `<tab>`, which I got the `ListExamples`, then I just add `.java` behind `ListExamples`
-* Second, I typed `git commit -m "Updated` to committed the updated Git code locally
+* Second, I typed `git commit -m "Updated"` to committed the updated Git code locally
 * Last, I typed `push origin main` to get everything up-to-date in my github 
 ## Here are some preparation for step 1 and 2
 1. In order to speed up, we can generate ssh key for ieng6, here are the steps: <br />
